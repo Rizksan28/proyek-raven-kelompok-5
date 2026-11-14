@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Archive | KELOMPOK 5 Portfolio</title>
+    <meta
+      name="description"
+      content="A curated archive of ideas, systems, and digital experiences from Kelompok 5."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="site-header">
+        <a class="brand-link" href="/" aria-label="Kelompok 5 — Home">
+          <img
+            class="brand-logo brand-logo--nav"
+            src="/assets/branding/kelompok5-logo.webp"
+            width="1779"
+            height="656"
+            alt=""
+            decoding="async"
+          />
+        </a>
+        <button class="menu-button" id="menuButton" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="siteNav" aria-label="Primary navigation">
+          <a href="/#top">Home</a>
+          <a class="active" href="/projects.html">Projects</a>
+          <a href="/#minds-preview">Team</a>
+        </nav>
+        <a class="brush-button header-cta" href="/#selected-work">
+          Back to home
+          <svg aria-hidden="true" class="arrow-icon" viewBox="0 0 20 20" fill="none">
+            <path d="M5 15 15 5M7 5h8v8" />
+          </svg>
+        </a>
+      </header>
+
+      <main>
+        <section class="inner-hero">
+          <svg class="dragon-line" viewBox="0 0 520 540" fill="none" aria-hidden="true">
+            <path d="M56 488c68-35 127-97 129-171 2-67-61-92-87-45-25 45 24 94 88 76 115-32 81-172 172-216 55-26 122 13 97 73-22 55-99 34-94-24 5-55 74-81 125-59" />
+            <path d="M339 114c33-29 67-39 106-24l-19 22 35 12-39 16m-83-26-33-24 9 37-38-2 35 27" />
+            <path d="M138 366c-51 30-75 70-77 119m83-129c-66 6-108-9-133-45m190-2c30 12 51 38 63 77m-49-107c46-6 88 8 125 43" />
+            <circle cx="408" cy="111" r="4" fill="currentColor" />
+          </svg>
+          <span class="inner-hero__index">01</span>
+          <span class="eyebrow">PROJECT ARCHIVE</span>
+          <h1>SELECTED<br /><em>WORKS.</em></h1>
+          <p>
+            A curated archive of ideas, systems, and digital experiences.
+            Project details remain editable until verified.
+          </p>
+        </section>
+
+        <div class="section archive">
+          <div class="filter-row" id="archiveFilters" aria-label="Project categories">
+            <button class="active" type="button" data-filter="All Projects">All Projects</button>
+            <button type="button" data-filter="Web Development">Web Development</button>
+            <button type="button" data-filter="UI / UX Design">UI / UX Design</button>
+            <button type="button" data-filter="AI &amp; Technology">AI &amp; Technology</button>
+            <button type="button" data-filter="Startup Innovation">Startup Innovation</button>
+            <button type="button" data-filter="Research">Research</button>
+          </div>
+
+          <div class="archive__count">
+            <span>Showing</span>
+            <strong id="archiveCount">04</strong>
+            <span id="archiveCategory">All Projects</span>
+          </div>
+
+          <div class="archive__featured" id="archiveFeatured" data-filters="All Projects|UI / UX Design|Startup Innovation">
+            <article class="showcase-card showcase-card--featured showcase-card--cover">
+              <a class="showcase-card__visual" href="/pharvia.html" aria-label="Explore the PHARVIA case study">
+                <span class="showcase-card__featured">Featured project</span>
+                <img
+                  class="showcase-card__cover"
+                  src="/assets/projects/pharvia/pharvia-cover.webp"
+                  alt="PHARVIA app mockups showing the homepage, Pharvia Scan, and Pharvia Point screens."
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <div class="showcase-card__content">
+                <div class="showcase-card__meta">
+                  <span>Digital Pharmaceutical Take-Back Ecosystem</span>
+                  <span>Halte Terminal Corruscant</span>
+                </div>
+                <h3>PHARVIA</h3>
+                <p class="showcase-card__quote">"A smarter way to return, track, and responsibly manage unused medicines."</p>
+                <p>
+                  A digital take-back ecosystem that connects consumers, pharmacies, pharmaceutical companies, and
+                  licensed waste partners to return unused medicines safely and traceably.
+                </p>
+                <div class="showcase-card__tags">
+                  <span>HealthTech</span>
+                  <span>Sustainability</span>
+                  <span>Digital Innovation</span>
+                </div>
+                <p class="showcase-card__award">1st Place — Business Model Canvas</p>
+                <a class="showcase-card__link" href="/pharvia.html">
+                  Explore case study
+                  <svg aria-hidden="true" class="arrow-icon" viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M7 5h8v8" /></svg>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="empty-state" id="archiveEmpty" hidden>
+            No verified projects have been added to this category yet.
+          </div>
+        </div>
+
+        <section class="contact-cta">
+          <span class="contact-cta__seal">共創<br /><small>CREATE TOGETHER</small></span>
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h2>LET'S CREATE<br /><em>SOMETHING</em> LEGENDARY.</h2>
+          <p>Have an idea worth building? Let's make it real.</p>
+          <a class="brush-button brush-button--light" href="mailto:hello@kelompok5.example">
+            Get in touch
+            <svg aria-hidden="true" class="arrow-icon" viewBox="0 0 20 20" fill="none"><path d="M5 15 15 5M7 5h8v8" /></svg>
+          </a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__top">
+          <p class="footer__brand">
+            <img
+              class="brand-logo brand-logo--footer"
+              src="/assets/branding/kelompok5-logo.webp"
+              width="1779"
+              height="656"
+              alt=""
+              decoding="async"
+            />
+            <span class="sr-only">KELOMPOK 5</span>
+          </p>
+          <p>Four Minds. Endless Possibilities.</p>
+        </div>
+        <div class="footer__links">
+          <div>
+            <span class="footer__label">Navigate</span>
+            <a href="/projects.html">Projects</a>
+            <a href="/#minds-preview">Team</a>
+          </div>
+          <div>
+            <span class="footer__label">Connect</span>
+            <a href="#github">GitHub</a>
+            <a href="#linkedin">LinkedIn</a>
+            <a href="mailto:hello@kelompok5.example">Email</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span id="footerYear">© KELOMPOK 5</span>
+          <span>JAKARTA · INDONESIA</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
