@@ -41,7 +41,7 @@
 
 <a id="tim"></a>
 
-<img src="assets/readme/team.svg?v=2" width="100%" alt="Tim: Evan (Project Manager), Rizky, Vassel, dan Raka (PIC UI dan prototype)" />
+<img src="assets/readme/team.svg?v=2" width="100%" alt="Tim: Evan (Project Manager), Rizky, Vassell, dan Raka (PIC UI dan prototype)" />
 
 <img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
 
