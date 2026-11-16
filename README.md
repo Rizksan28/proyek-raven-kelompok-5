@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="assets/readme/hero.svg" width="100%" alt="Raven Project — Website Portofolio Kelompok 5" />
+<img src="assets/readme/hero.svg" width="100%" alt="Raven Project, Website Portofolio Kelompok 5" />
 
 <br/>
 
 <a href="https://websiteportofoliokelompok5.vercel.app/"><img src="https://img.shields.io/badge/LIVE_REFERENCE-websiteportofoliokelompok5-d21f27?style=for-the-badge&labelColor=0b0708" alt="Live reference" /></a>
 <a href="https://vassellenhaatthayya.atlassian.net/jira/software/projects/RVN/boards/3/backlog"><img src="https://img.shields.io/badge/BOARD-JIRA_RVN-b58b62?style=for-the-badge&logo=jira&logoColor=f2e9e2&labelColor=0b0708" alt="Jira board" /></a>
-<img src="https://img.shields.io/badge/PERIODE-5_—_26_NOV_2026-a30e16?style=for-the-badge&labelColor=0b0708" alt="Periode" />
+<img src="https://img.shields.io/badge/PERIODE-5--26_NOV_2026-a30e16?style=for-the-badge&labelColor=0b0708" alt="Periode" />
 
 <img src="https://img.shields.io/badge/PROTOTYPE_SAAT_INI-HTML_·_CSS_·_JS-0b0708?style=for-the-badge&logo=html5&logoColor=d21f27" alt="Prototype saat ini: HTML, CSS, JS" />
 <img src="https://img.shields.io/badge/MIGRASI_KE-React.js_+_Tailwind-0b0708?style=for-the-badge&logo=react&logoColor=b58b62" alt="Migrasi ke React.js dan Tailwind CSS" />
@@ -112,7 +112,7 @@ Buka `http://localhost:3000`. Kalau gambar tampil kosong atau rusak, jalankan `g
 
 <div align="center">
 
-<img src="assets/readme/footer.svg" width="100%" alt="Forged by four, flown as one raven — Kelompok 5" />
+<img src="assets/readme/footer.svg" width="100%" alt="Forged by four, flown as one raven. Kelompok 5" />
 
 <sub>Visual README dibuat sebagai SVG beranimasi di <code>assets/readme/</code>. Animasi berhenti otomatis bila perangkat memakai pengaturan <i>reduce motion</i>.</sub>
 

@@ -189,7 +189,7 @@
 <text x="357" y="518" class="m7 go" font-size="10.5" letter-spacing="3">KAMIS · NOV</text>
 <text x="357" y="558" class="b iv" font-size="26" letter-spacing="1"><tspan x="357" dy="0">Weekly meeting</tspan></text>
 <text x="357" y="588" class="ci" font-size="17" fill="#d21f27">Kamis 12, 19, dan 26 Nov</text>
-<text x="357" y="614" class="m mu" font-size="13.5"><tspan x="357" dy="0">Validasi hasil, review, dan tindak</tspan><tspan x="357" dy="21">lanjut; blok 60 — 90 menit dengan</tspan><tspan x="357" dy="21">calendar event untuk semua</tspan><tspan x="357" dy="21">anggota.</tspan></text></g><g class="rise" style="animation-delay:1.28s">
+<text x="357" y="614" class="m mu" font-size="13.5"><tspan x="357" dy="0">Validasi hasil, review, dan tindak</tspan><tspan x="357" dy="21">lanjut; blok 60-90 menit dengan</tspan><tspan x="357" dy="21">calendar event untuk semua</tspan><tspan x="357" dy="21">anggota.</tspan></text></g><g class="rise" style="animation-delay:1.28s">
 <rect x="610" y="430" width="255" height="306" fill="#19090b" fill-opacity=".6" stroke="rgba(181,139,98,0.3)"/>
 <rect x="610" y="430" width="3" height="306" fill="url(#redG)" class="drawY" style="animation-delay:1.48s"/>
 <text x="632" y="496" class="b" font-size="56" fill="url(#numG)" letter-spacing="1">END</text>

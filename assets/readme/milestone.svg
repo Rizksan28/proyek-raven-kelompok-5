@@ -71,7 +71,7 @@
 <g>
   <text x="1140" y="166" text-anchor="end" class="b" font-size="190" fill="#f2e9e2" opacity=".045">04</text>
   <g class="rise" style="animation-delay:0.0s">
-    <text x="60" y="70" class="eyebrow" font-size="12"><tspan fill="#d21f27">04</tspan>  /  MILESTONE DAN SPRINT GOAL  ·  5 — 26 NOV 2026</text>
+    <text x="60" y="70" class="eyebrow" font-size="12"><tspan fill="#d21f27">04</tspan>  /  MILESTONE DAN SPRINT GOAL  ·  5-26 NOV 2026</text>
   </g>
   <clipPath id="hc04"><rect x="40" y="78" width="1100" height="70"/></clipPath>
   <g clip-path="url(#hc04)">
@@ -83,7 +83,7 @@
 </g>
 <line x1="92" y1="300" x2="1108" y2="300" stroke="#b58b62" stroke-opacity=".3" stroke-width="2" stroke-dasharray="4 6"/><line x1="92" y1="300" x2="232" y2="300" stroke="#b58b62" stroke-width="2" class="drawX" style="animation-delay:.4s"/><line class="prog" x1="232" y1="300" x2="600" y2="300" stroke="#d21f27" stroke-width="3"/><g class="rise" style="animation-delay:0.50s">
 <text x="232.0" y="234" text-anchor="middle" class="b" font-size="64" fill="url(#goldG)" letter-spacing="2">SPRINT 1</text>
-<text x="232.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#b58b62">5 — 12 NOV</text>
+<text x="232.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#b58b62">5-12 NOV</text>
 <circle cx="232.0" cy="300" r="15" fill="url(#goldG)"/><path d="M226.0 300 l4 5 l8 -10" fill="none" stroke="#0b0708" stroke-width="2.6"/>
 <line x1="232.0" y1="318" x2="232.0" y2="360" stroke="#b58b62" stroke-opacity=".6"/>
 <rect x="60.0" y="360" width="344" height="358" fill="#19090b" fill-opacity=".6" stroke="rgba(181,139,98,0.3)" stroke-opacity="1"/>
@@ -100,7 +100,7 @@
 <text x="88.0" y="634" class="m mu" font-size="13.5"><tspan x="88.0" dy="0">Review pada weekly meeting 12 Nov;</tspan><tspan x="88.0" dy="21">retrospective dan planning pada meeting 13</tspan><tspan x="88.0" dy="21">Nov.</tspan></text>
 </g><g class="rise" style="animation-delay:0.85s">
 <text x="600.0" y="234" text-anchor="middle" class="b" font-size="64" fill="url(#numG)" letter-spacing="2">SPRINT 2</text>
-<text x="600.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#d21f27">13 — 18 NOV</text>
+<text x="600.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#d21f27">13-18 NOV</text>
 <circle class="ring" cx="600.0" cy="300" r="15" fill="none" stroke="#d21f27" stroke-width="2"/><circle class="ring" cx="600.0" cy="300" r="15" fill="none" stroke="#d21f27" stroke-width="2" style="animation-delay:1s"/><circle cx="600.0" cy="300" r="15" fill="#d21f27"/><circle cx="600.0" cy="300" r="5" fill="#f2e9e2"/>
 <line x1="600.0" y1="318" x2="600.0" y2="360" stroke="#d21f27" stroke-opacity=".6"/>
 <rect x="428.0" y="360" width="344" height="358" fill="#19090b" fill-opacity=".6" stroke="#d21f27" stroke-opacity="1"/>
@@ -117,7 +117,7 @@
 <text x="456.0" y="661" class="m mu" font-size="13.5"><tspan x="456.0" dy="0">Review, retrospective, dan planning pada</tspan><tspan x="456.0" dy="21">asistensi Kamis 19 Nov.</tspan></text>
 </g><g class="rise" style="animation-delay:1.20s">
 <text x="968.0" y="234" text-anchor="middle" class="b" font-size="64" fill="url(#silverG)" letter-spacing="2">SPRINT 3</text>
-<text x="968.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#c8b6ad">19 — 26 NOV</text>
+<text x="968.0" y="264" text-anchor="middle" class="m7" font-size="12" letter-spacing="3" fill="#c8b6ad">19-26 NOV</text>
 <circle cx="968.0" cy="300" r="14" fill="#0b0708" stroke="#c8b6ad" stroke-width="2" stroke-dasharray="3 3"/>
 <line x1="968.0" y1="318" x2="968.0" y2="360" stroke="#c8b6ad" stroke-opacity=".6"/>
 <rect x="796.0" y="360" width="344" height="358" fill="#19090b" fill-opacity=".6" stroke="rgba(181,139,98,0.3)" stroke-opacity="1"/>
