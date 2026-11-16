@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/readme/hero.svg?v=2" width="100%" alt="Raven Project, Website Portofolio Kelompok 5" />
+<img src="assets/readme/hero.svg?v=3" width="100%" alt="Raven Project, Website Portofolio Kelompok 5" />
 
 <br/>
 
@@ -18,52 +18,52 @@
 
 <br/>
 
-<img src="assets/readme/stats.svg?v=2" width="100%" alt="05 halaman, 04 anggota, 03 sprint, 20 responden SUS, target skor SUS 68" />
+<img src="assets/readme/stats.svg?v=3" width="100%" alt="05 halaman, 04 anggota, 03 sprint, 20 responden SUS, target skor SUS 68" />
 
 </div>
 
 > **Raven Project** adalah Tugas Besar Pengembangan UI (MK UI Lanjut) Kelompok 5. Periode pengerjaan **5 - 26 November 2026**.
 > Project Manager: **Evan**. Tools: **GitHub Project**.
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="brief"></a>
 
-<img src="assets/readme/brief.svg?v=2" width="100%" alt="Project Brief: Goal, Users, Kebutuhan, Luaran, Indikator keberhasilan, Scope" />
+<img src="assets/readme/brief.svg?v=3" width="100%" alt="Project Brief: Goal, Users, Kebutuhan, Luaran, Indikator keberhasilan, Scope" />
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="requirements"></a>
 
-<img src="assets/readme/requirements.svg?v=2" width="100%" alt="Functional dan Non-Functional Requirements beserta kriteria penerimaan" />
+<img src="assets/readme/requirements.svg?v=3" width="100%" alt="Functional dan Non-Functional Requirements beserta kriteria penerimaan" />
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="tim"></a>
 
-<img src="assets/readme/team.svg?v=2" width="100%" alt="Tim: Evan (Project Manager), Rizky, Vassell, dan Raka (PIC UI dan prototype)" />
+<img src="assets/readme/team.svg?v=3" width="100%" alt="Tim: Evan (Project Manager), Rizky, Vassell, dan Raka (PIC UI dan prototype)" />
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="milestone"></a>
 
-<img src="assets/readme/milestone.svg?v=2" width="100%" alt="Milestone dan sprint goal: Sprint 1, Sprint 2, Sprint 3" />
+<img src="assets/readme/milestone.svg?v=3" width="100%" alt="Milestone dan sprint goal: Sprint 1, Sprint 2, Sprint 3" />
 
 <sub>Status sprint pada visual di atas: per 16 November 2026.</sub>
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="jadwal"></a>
 
-<img src="assets/readme/schedule.svg?v=2" width="100%" alt="Jadwal koordinasi November 2026" />
+<img src="assets/readme/schedule.svg?v=3" width="100%" alt="Jadwal koordinasi November 2026" />
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="alur-kerja"></a>
 
-<img src="assets/readme/workflow.svg?v=2" width="100%" alt="Alur kerja: Issue, Branch, Pull Request, Review dan Merge; arti status; fields dan views" />
+<img src="assets/readme/workflow.svg?v=3" width="100%" alt="Alur kerja: Issue, Branch, Pull Request, Review dan Merge; arti status; fields dan views" />
 
-<img src="assets/readme/divider.svg?v=2" width="100%" alt="" />
+<img src="assets/readme/divider.svg?v=3" width="100%" alt="" />
 
 <a id="quick-start"></a>
 
@@ -112,7 +112,7 @@ Buka `http://localhost:3000`. Kalau gambar tampil kosong atau rusak, jalankan `g
 
 <div align="center">
 
-<img src="assets/readme/footer.svg?v=2" width="100%" alt="Forged by four, flown as one raven. Kelompok 5" />
+<img src="assets/readme/footer.svg?v=3" width="100%" alt="Forged by four, flown as one raven. Kelompok 5" />
 
 <sub>Visual README dibuat sebagai SVG beranimasi di <code>assets/readme/</code>. Animasi berhenti otomatis bila perangkat memakai pengaturan <i>reduce motion</i>.</sub>
 

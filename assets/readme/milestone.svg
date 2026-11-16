@@ -124,11 +124,11 @@
 <rect x="796.0" y="360" width="344" height="3" fill="#c8b6ad" class="drawX" style="animation-delay:1.50s"/>
 <text x="824.0" y="398" class="m7" font-size="11" letter-spacing="3" fill="#c8b6ad">○  BERIKUTNYA</text>
 <text x="1112.0" y="398" text-anchor="end" class="m7 mu" font-size="11" letter-spacing="3">SPRINT GOAL</text>
-<text x="824.0" y="430" class="ci iv" font-size="23"><tspan x="824.0" dy="0">Temuan SUS diperbaiki, hasil</tspan><tspan x="824.0" dy="27">terintegrasi, dan siap</tspan><tspan x="824.0" dy="27">dipresentasikan.</tspan></text>
+<text x="824.0" y="430" class="ci iv" font-size="23"><tspan x="824.0" dy="0">Migrasi ke React.js + Tailwind,</tspan><tspan x="824.0" dy="27">temuan SUS diperbaiki, dan siap</tspan><tspan x="824.0" dy="27">dipresentasikan.</tspan></text>
 <rect x="824.0" y="529" width="288" height="1" fill="#b58b62" opacity=".3"/>
 <path d="M824.0 545 h58 l-6 26 h-58 z" transform="translate(6 0)" fill="none" stroke="#d21f27"/>
 <text x="858.0" y="566" text-anchor="middle" class="b iv" font-size="21">M3</text>
-<text x="904.0" y="563" class="m6 iv" font-size="15"><tspan x="904.0" dy="0">Testing/evaluasi,</tspan><tspan x="904.0" dy="22">perbaikan, dan persiapan</tspan><tspan x="904.0" dy="22">presentasi</tspan></text>
+<text x="904.0" y="563" class="m6 iv" font-size="15"><tspan x="904.0" dy="0">Migrasi React + Tailwind,</tspan><tspan x="904.0" dy="22">evaluasi, dan persiapan</tspan><tspan x="904.0" dy="22">presentasi</tspan></text>
 <text x="904.0" y="629" class="m7 go" font-size="11" letter-spacing="2.5">DUE 26 NOV</text>
 <text x="824.0" y="659" class="m7 go" font-size="10.5" letter-spacing="3">REVIEW · RETRO · PLANNING</text>
 <text x="824.0" y="683" class="m mu" font-size="13.5"><tspan x="824.0" dy="0">Review dan retrospective pada Kamis 26 Nov.</tspan></text>
