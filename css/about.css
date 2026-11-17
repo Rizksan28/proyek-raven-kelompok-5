@@ -1,0 +1,178 @@
+/* ==========================================================================
+   About Page Styles — Project Raven (Kelompok 5)
+   Exact match with reference: https://websiteportofoliokelompok5.vercel.app/about
+   ========================================================================== */
+
+/* Reveal-on-scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ===== Section "about-statement" (Our Belief) ===== */
+.about-statement {
+  background: #10090a;
+  overflow: hidden;
+}
+
+.about-statement .dragon-line {
+  left: auto;
+  opacity: 0.08;
+  right: -10%;
+  top: 5%;
+}
+
+.about-statement h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(40px, 6vw, 80px);
+  font-weight: 600;
+  line-height: 1.05;
+  margin: 65px 0;
+  max-width: 1050px;
+}
+
+.about-statement h2 em {
+  color: var(--bright-red);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.about-statement > div {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 35%;
+  position: relative;
+}
+
+.about-statement > div p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.9;
+  margin: 0;
+}
+
+/* ===== Section "principles" (Values 2x2 Grid) ===== */
+.principles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 0;
+}
+
+.principles > div {
+  border: 1px solid var(--line);
+  min-height: 240px;
+  padding: 40px;
+}
+
+.principles span {
+  color: var(--red);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+}
+
+.principles h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(25px, 3vw, 42px);
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+/* ===== Section "contact-panel" (Let's Talk) ===== */
+.contact-panel {
+  background: var(--burgundy);
+  display: grid;
+  gap: 8vw;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-panel h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(58px, 8vw, 110px);
+  line-height: 0.82;
+  margin-top: 35px;
+}
+
+.contact-panel form {
+  display: grid;
+  gap: 30px;
+}
+
+.contact-panel label {
+  color: var(--gold);
+  font-size: 8px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.contact-panel input,
+.contact-panel select,
+.contact-panel textarea {
+  background: 0 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ivory);
+  display: block;
+  font-family: inherit;
+  font-size: 13px;
+  margin-top: 10px;
+  outline: none;
+  padding: 12px 0;
+  resize: vertical;
+  width: 100%;
+}
+
+.contact-panel input:focus-visible,
+.contact-panel select:focus-visible,
+.contact-panel textarea:focus-visible {
+  border-bottom-color: var(--bright-red);
+}
+
+.contact-panel option {
+  background: var(--burgundy);
+  color: var(--ivory);
+}
+
+.contact-panel .brush-button {
+  justify-self: start;
+}
+
+.form-status {
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.7;
+  min-height: 32px;
+}
+
+/* ===== Responsive Breakpoints ===== */
+@media (max-width: 900px) {
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .about-statement > div {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+
+  .principles {
+    grid-template-columns: 1fr;
+  }
+}
