@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | KELOMPOK 5 Portfolio</title>
+    <meta
+      name="description"
+      content="Kelompok 5 is a multidisciplinary creative technology collective built on curiosity, craft, and collaboration."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/projects.css" />
+    <link rel="stylesheet" href="/css/about.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="site-header">
+        <a class="brand-link" href="/#top" aria-label="Kelompok 5 — Home">
+          <img
+            class="brand-logo brand-logo--nav"
+            src="/assets/branding/kelompok5-logo.webp"
+            width="1779"
+            height="656"
+            alt=""
+            decoding="async"
+          />
+        </a>
+        <button class="menu-button" id="menuButton" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav" id="siteNav" aria-label="Primary navigation">
+          <a href="/#top">Home</a>
+          <a href="/projects.html">Projects</a>
+          <a href="/achievements.html">Achievements</a>
+          <a class="active" href="#top">About</a>
+        </nav>
+        <a class="brush-button header-cta" href="/projects.html">
+          Explore projects
+          <svg aria-hidden="true" class="arrow-icon" viewBox="0 0 20 20" fill="none">
+            <path d="M5 15 15 5M7 5h8v8" />
+          </svg>
+        </a>
+      </header>
+
+      <main>
+        <!-- Hero Section -->
+        <section class="inner-hero" id="top">
+          <svg class="dragon-line" viewBox="0 0 520 540" fill="none" aria-hidden="true">
+            <path d="M56 488c68-35 127-97 129-171 2-67-61-92-87-45-25 45 24 94 88 76 115-32 81-172 172-216 55-26 122 13 97 73-22 55-99 34-94-24 5-55 74-81 125-59" />
+            <path d="M339 114c33-29 67-39 106-24l-19 22 35 12-39 16m-83-26-33-24 9 37-38-2 35 27" />
+            <path d="M138 366c-51 30-75 70-77 119m83-129c-66 6-108-9-133-45m190-2c30 12 51 38 63 77m-49-107c46-6 88 8 125 43" />
+            <circle cx="408" cy="111" r="4" fill="currentColor" />
+          </svg>
+          <span class="inner-hero__index">04</span>
+          <span class="eyebrow">ABOUT KELOMPOK 5</span>
+          <h1>FOUR MINDS.<br /><em>ONE VISION.</em></h1>
+          <p>
+            Kelompok 5 is a multidisciplinary creative technology collective built on curiosity, craft, and collaboration.
+          </p>
+        </section>
+
+        <!-- Our Belief Section -->
+        <section class="section about-statement" id="belief">
+          <svg class="dragon-line" viewBox="0 0 520 540" fill="none" aria-hidden="true">
+            <path d="M56 488c68-35 127-97 129-171 2-67-61-92-87-45-25 45 24 94 88 76 115-32 81-172 172-216 55-26 122 13 97 73-22 55-99 34-94-24 5-55 74-81 125-59" />
+            <path d="M339 114c33-29 67-39 106-24l-19 22 35 12-39 16m-83-26-33-24 9 37-38-2 35 27" />
+            <path d="M138 366c-51 30-75 70-77 119m83-129c-66 6-108-9-133-45m190-2c30 12 51 38 63 77m-49-107c46-6 88 8 125 43" />
+            <circle cx="408" cy="111" r="4" fill="currentColor" />
+          </svg>
+          <span class="eyebrow">OUR BELIEF</span>
+          <h2>“We believe great ideas are built through <em>collaboration</em>, curiosity, and the courage to create.”</h2>
+          <div>
+            <p>We bring together different perspectives to make clear, meaningful, and memorable digital experiences.</p>
+            <p>Our work spans design and technology, guided by a shared belief that the strongest solutions emerge when disciplines meet.</p>
+          </div>
+        </section>
+
+        <!-- Principles Grid -->
+        <section class="section principles">
+          <div>
+            <span>01</span>
+            <h3>Curiosity before convention.</h3>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Collaboration over ego.</h3>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Craft with intention.</h3>
+          </div>
+          <div>
+            <span>04</span>
+            <h3>Technology with purpose.</h3>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-panel" id="contact">
+          <div>
+            <span class="eyebrow">LET’S TALK</span>
+            <h2>HAVE AN IDEA<br />WORTH BUILDING?</h2>
+          </div>
+          <form id="contactForm">
+            <label>
+              Name
+              <input type="text" name="name" id="talkName" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" id="talkEmail" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Project type
+              <select name="project_type" id="talkType" required>
+                <option value="" disabled selected>Select a focus</option>
+                <option value="Web Development">Web Development</option>
+                <option value="UI / UX Design">UI / UX Design</option>
+                <option value="AI & Technology">AI &amp; Technology</option>
+                <option value="Research">Research</option>
+              </select>
+            </label>
+            <label>
+              Tell us about it
+              <textarea name="message" id="talkMessage" placeholder="What are you hoping to create?" rows="4" required></textarea>
+            </label>
+            <button class="brush-button" type="submit">
+              Send inquiry
+              <svg aria-hidden="true" class="arrow-icon" viewBox="0 0 20 20" fill="none">
+                <path d="M5 15 15 5M7 5h8v8" />
+              </svg>
+            </button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__top">
+          <p class="footer__brand">
+            <img
+              class="brand-logo brand-logo--footer"
+              src="/assets/branding/kelompok5-logo.webp"
+              width="1779"
+              height="656"
+              alt=""
+              decoding="async"
+            />
+            <span class="sr-only">KELOMPOK 5</span>
+          </p>
+          <p>Four Minds. Endless Possibilities.</p>
+        </div>
+        <div class="footer__links">
+          <div>
+            <span class="footer__label">Navigate</span>
+            <a href="/projects.html">Projects</a>
+            <a href="/#minds-preview">Team</a>
+            <a href="/achievements.html">Achievements</a>
+            <a href="#contact">About / Contact</a>
+          </div>
+          <div>
+            <span class="footer__label">Connect</span>
+            <a href="#github">GitHub</a>
+            <a href="#linkedin">LinkedIn</a>
+            <a href="mailto:hello@kelompok5.example">Email</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <span id="footerYear">© 2026 KELOMPOK 5</span>
+          <span>JAKARTA · INDONESIA</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script>
+      const contactForm = document.getElementById('contactForm');
+      const formStatus = document.getElementById('formStatus');
+      if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const nameInput = document.getElementById('talkName');
+          const emailInput = document.getElementById('talkEmail');
+          const typeInput = document.getElementById('talkType');
+          const messageInput = document.getElementById('talkMessage');
+
+          let isValid = true;
+          if (!nameInput.value.trim()) {
+            nameInput.focus();
+            isValid = false;
+          } else if (!emailInput.value.trim() || !emailInput.checkValidity()) {
+            emailInput.focus();
+            isValid = false;
+          } else if (!typeInput.value) {
+            typeInput.focus();
+            isValid = false;
+          } else if (!messageInput.value.trim()) {
+            messageInput.focus();
+            isValid = false;
+          }
+
+          if (!isValid) {
+            contactForm.reportValidity();
+            return;
+          }
+
+          if (formStatus) {
+            formStatus.textContent = 'Thank you. This prototype recorded the interaction locally; connect a delivery service before launch.';
+          }
+
+          const subject = encodeURIComponent(`Project Inquiry: ${typeInput.value} - ${nameInput.value.trim()}`);
+          const body = encodeURIComponent(
+            `Name: ${nameInput.value.trim()}\n` +
+            `Email: ${emailInput.value.trim()}\n` +
+            `Project Type: ${typeInput.value}\n\n` +
+            `Message:\n${messageInput.value.trim()}`
+          );
+
+          window.location.href = `mailto:hello@kelompok5.example?subject=${subject}&body=${body}`;
+        });
+      }
+    </script>
+  </body>
+</html>
